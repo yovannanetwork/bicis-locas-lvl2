@@ -1,7 +1,3 @@
-function validateForm(){
-	/* Escribe tú código aquí */
-}
-
 // validacion del campo nombre y apellido para que la primera letra sea mayuscula.
 function alerta(space, valor ){
 	var span = document.createElement("span");
@@ -88,9 +84,6 @@ function validacionLastname(_evt){
 // validacion de todos los campos requeridos
 function validar(){
 	
-// section apellido
-	
-
 // section correo 
 	var email = document.getElementById("input-email");
 	var correo = document.createTextNode("verifica tu correo");
