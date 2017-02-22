@@ -13,7 +13,7 @@ function validateForm(){
 		validateCorreo();
 		validatePassword();
 		validateOpciones();
-		mensaje.innerHTML = "";
+		
 	}
 	
 }
@@ -84,7 +84,7 @@ function validacion1() {
 	}
     
 }
-
+// validate el input lastname
 function validacionApellido(){
 	
     var apellido = document.getElementById("lastname");
